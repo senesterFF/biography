@@ -1,0 +1,113 @@
+/* Reset default margin and padding */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #230fc0;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #f00; /* Change color on hover */
+}
+
+/* Style the content sections */
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style buttons */
+.button {
+    background-color: #f00; /* Red background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #c00; /* Darker red on hover */
+}
+
+/* Style links within content */
+.content a {
+    color: #0073e6; /* Blue link color */
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.content a:hover {
+    color: #004080; /* Darker blue on hover */
+}
+
+/* Style unordered lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 5px;
+}
+
+/* Style paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Style headings within sections */
+.content h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Style contact information */
+.contact-info {
+    margin-top: 20px;
+    font-weight: bold;
+}
